@@ -40,7 +40,7 @@ body.open {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #673ab7;
   overflow: hidden;
   z-index: 1;
 }
@@ -244,19 +244,19 @@ main {
 
   .app-bar-container {
     display: block;
-    height: 130px;
+    height: 60px;
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
+    background-color: #673ab7;
   }
 
   .app-bar .logo {
     float: left;
     margin: 0;
     padding: 0;
-    line-height: 130px;
-    font-size: 46px;
+    line-height: 60px;
+    font-size: 2em;
   }
 
   .app-bar-actions {
