@@ -3903,7 +3903,7 @@ main {
 main {
   margin: 0 auto;
   /* Height of the header */
-  padding: 60px 16px 16px 16px;
+  padding: 40px 0px 0px 0px;
   min-height: 100%;
 }
 
@@ -3984,7 +3984,6 @@ main {
   }
 
   main {
-    max-width: 864px;
     padding-top: 0;
     min-height: initial;
   }
