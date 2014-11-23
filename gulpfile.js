@@ -180,7 +180,11 @@ gulp.task('default', ['clean'], function (cb) {
 gulp.task('ftp', function () {
     return gulp.src('dist/**/*')
         .pipe(ftp({
-
+          //Add in you ftp details
+           // host: '',
+           // user: '',
+          //  pass: '',
+          //  remotePath: ''
         }));
 });
 

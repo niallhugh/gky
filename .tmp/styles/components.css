@@ -2981,7 +2981,7 @@ object {
   margin: 0 32px;
 }
 .guides-list__item p {
-  margin: 26px 32px 0;
+  margin: 26px 32px;
 }
 @media only screen and (min-width: 620px) {
   .guides-list__item .primary-content {
