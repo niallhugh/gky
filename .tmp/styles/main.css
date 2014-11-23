@@ -593,6 +593,7 @@ body {
   /* 26px */
   font-weight: 300;
   color: #404040;
+  background: #f0f0f0;
   position: relative;
 }
 body::after {
@@ -1621,7 +1622,6 @@ div.highlight > pre > code .il, code .highlight .il {
 }
 
 .guides-section {
-  background: #f0f0f0;
   text-align: center;
   padding: 26px 0 104px;
 }
@@ -3161,6 +3161,7 @@ object {
 }
 .guides-list__item h3 {
   margin: 0 32px;
+  padding-bottom: 1.0000em;
 }
 .guides-list__item p {
   margin: 26px 32px;
@@ -3702,7 +3703,6 @@ body {
   position: relative;
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  background-color: #fff;
   box-sizing: border-box;
   min-height: 100%;
 }
