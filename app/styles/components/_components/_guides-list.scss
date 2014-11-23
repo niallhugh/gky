@@ -28,6 +28,12 @@
       color: #fff;
      }
   }
+  &.twitter {
+     background-color: #55acee;
+     a {
+      color: #fff;
+     }
+  }
 
   @include medium {
     display: flex;

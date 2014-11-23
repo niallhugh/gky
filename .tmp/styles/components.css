@@ -457,7 +457,7 @@ pre {
   .main-container {
     padding-left: 4.4%;
     padding-right: 4.4%;
-    max-width: 864px;
+    max-width: 1800px;
   }
 }
 
@@ -480,7 +480,7 @@ pre {
   .container {
     padding-left: 4.4%;
     padding-right: 4.4%;
-    max-width: 864px;
+    max-width: 1800px;
   }
 }
 
@@ -505,7 +505,7 @@ pre {
   .container-medium {
     padding-left: 4.4%;
     padding-right: 4.4%;
-    max-width: 864px;
+    max-width: 1800px;
   }
 }
 
@@ -530,7 +530,7 @@ pre {
   .container-small {
     padding-left: 4.4%;
     padding-right: 4.4%;
-    max-width: 864px;
+    max-width: 1800px;
   }
 }
 
@@ -719,7 +719,7 @@ pre {
   .highlight-module__container {
     padding-left: 4.4%;
     padding-right: 4.4%;
-    max-width: 864px;
+    max-width: 1800px;
   }
 }
 .highlight-module__container::before {
@@ -2059,7 +2059,7 @@ div.highlight > pre > code .il, code .highlight .il {
   .debug .grid-overlay {
     padding-left: 4.4%;
     padding-right: 4.4%;
-    max-width: 864px;
+    max-width: 1800px;
   }
 }
 .debug .grid-overlay [class*="g-"] {
@@ -2771,7 +2771,7 @@ td:last-child::after {
 }
 @media only screen and (min-width: 800px) {
   .table-2 col {
-    width: 432px;
+    width: 900px;
   }
 }
 @media only screen and (min-width: 620px) {
@@ -2786,7 +2786,7 @@ td:last-child::after {
 }
 @media only screen and (min-width: 800px) {
   .table-3 col {
-    width: 288px;
+    width: 600px;
   }
 }
 @media only screen and (min-width: 620px) {
@@ -2802,7 +2802,7 @@ td:last-child::after {
 }
 @media only screen and (min-width: 800px) {
   .table-4 col {
-    width: 216px;
+    width: 450px;
   }
 }
 @media only screen and (min-width: 620px) {
@@ -2968,6 +2968,12 @@ object {
   background-color: #673ab7;
 }
 .guides-list__item.purple a {
+  color: #fff;
+}
+.guides-list__item.twitter {
+  background-color: #55acee;
+}
+.guides-list__item.twitter a {
   color: #fff;
 }
 @media only screen and (min-width: 620px) {
