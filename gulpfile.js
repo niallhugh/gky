@@ -27,6 +27,7 @@ var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
 var pagespeed = require('psi');
 var reload = browserSync.reload;
+var ftp = require('gulp-ftp');
 
 var AUTOPREFIXER_BROWSERS = [
   'ie >= 10',
@@ -170,9 +171,17 @@ gulp.task('serve:dist', ['default'], function () {
   });
 });
 
+
 // Build Production Files, the Default Task
 gulp.task('default', ['clean'], function (cb) {
   runSequence('styles', ['jshint', 'html', 'images', 'fonts', 'copy'], cb);
+});
+
+gulp.task('ftp', function () {
+    return gulp.src('dist/**/*')
+        .pipe(ftp({
+
+        }));
 });
 
 // Run PageSpeed Insights
