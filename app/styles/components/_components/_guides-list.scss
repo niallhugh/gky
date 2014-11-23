@@ -22,6 +22,12 @@
   background: #ffffff;
   margin-top: $lineHeight;
   margin-bottom: 0;
+  &.purple {
+    background-color: #673ab7;
+     a {
+      color: #fff;
+     }
+  }
 
   @include medium {
     display: flex;

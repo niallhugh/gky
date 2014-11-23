@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Have you ever wondered what Google knows about you, your data, location history, search history">
+    <meta name="description" content="Have you ever wondered what data Google has stored about you? Your data, location history, search history, youtube history">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Google Knows You</title>
 
@@ -24,6 +24,22 @@
 
     <!-- Page styles -->
     <link rel="stylesheet" href="styles/main.css">
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-57029424-1', 'auto');
+    ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
@@ -85,7 +101,7 @@
                         <h3 class="large"><a href="https://www.youtube.com/my_search_history" target="_blank" title="What Google thinks about you" class="themed">Your YouTube search history</h3>
                     </div>
                 </li>
-                <li class="guides-list__item g--half theme--multi-device-layouts g--last">
+                <li class="guides-list__item purple g--half theme--multi-device-layouts g--last">
                     <div class="primary-content">
                         <h3 class="large"><a href="https://www.google.com/settings/takeout" target="_blank" title="What Google thinks about you" class="themed">Download a copy of your data</a></h3>
                     </div>

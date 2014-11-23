@@ -2964,6 +2964,12 @@ object {
   margin-top: 26px;
   margin-bottom: 0;
 }
+.guides-list__item.purple {
+  background-color: #673ab7;
+}
+.guides-list__item.purple a {
+  color: #fff;
+}
 @media only screen and (min-width: 620px) {
   .guides-list__item {
     display: -webkit-flex;
